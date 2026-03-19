@@ -1,4 +1,8 @@
-# Unitree Go2 ROS 2 Workspace
+# This project contains two parts: Raspberry Pi (pi_code) + Go2 (others)
+Pi is for controling xArm 2.0 to grasp apples which are identified by YOLOv8
+Go2 is for mapping and navigation
+
+# 1.Unitree Go2 ROS 2 Workspace
 
 ## Introduction
 This repository hosts the code and resources for integrating the Unitree Go2 robot with ROS 2. The Unitree Go2 brings advanced robotics technology to your fingertips, and with this workspace, you can leverage its full potential within the ROS 2 ecosystem.
@@ -53,6 +57,7 @@ Drag to adjust the target orientation
 - Real-time control of the Unitree Go2
 - Sensor data streaming and processing
 - Easy navigation and mapping integration
+
 
 ## Contributing
 We welcome contributions! Please fork the repository, make your changes, and submit a pull request.
