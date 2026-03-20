@@ -1,5 +1,5 @@
-# This project contains two parts: Raspberry Pi (pi_code) + Go2 (others)
-Pi is for controling xArm 2.0 to grasp apples which are identified by YOLOv8
+# This project contains two parts: Raspberry Pi 5 (pi_code) + Go2 (others)
+Raspberry Pi 5 is for controling xArm 2.0 to grasp apples which are identified by YOLOv8
 Go2 is for mapping and navigation
 
 # 1.Unitree Go2 ROS 2 Workspace
