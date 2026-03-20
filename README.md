@@ -2,6 +2,8 @@
 Raspberry Pi 5 is for controling xArm 2.0 to grasp apples which are identified by YOLOv8
 Go2 is for mapping and navigation
 
+https://github.com/user-attachments/assets/bb971114-33e9-4767-9ef8-c3c533177d53
+
 # 1.Unitree Go2 ROS 2 Workspace
 
 ## Introduction
@@ -27,31 +29,31 @@ sudo apt-get install ros-foxy-navigation2 \
                      ros-foxy-tf-transformations \
                      ros-foxy-slam-toolbox
 3. Build the Workspace
-# Create workspace
+## Create workspace
 mkdir -p go2_ros2_ws/src
 cd go2_ros2_ws/src
 
-# Clone repository
+## Clone repository
 git clone https://github.com/andy-zhuo-02/go2_ros2_toolbox.git
 
-# Build
+## Build
 cd ..
 colcon build
 🎯 Usage
 Quick Start
-# Source the workspace
+## Source the workspace
 source install/setup.bash
 
-# Launch the robot
+## Launch the robot
 ros2 launch go2_core go2_startup.launch.py
 
-# SLAM Operations
+## SLAM Operations
 Map Serialization: 
 Save generated maps for later use
 
 Map Deserialization: 
 Load previously saved maps
-# Navigation
+## Navigation
 Open RViz2
 
 Select the 'Navigation2 Goal' button
